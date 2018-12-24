@@ -10,6 +10,7 @@ namespace LoginForm
     {
         /// <summary>
         /// The main entry point for the application.
+        /// //changed thng Hurry!!
         /// </summary>
         [STAThread]
         static void Main()
@@ -17,6 +18,8 @@ namespace LoginForm
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+            // Changed inside function
         }
     }
 }
